@@ -1,3 +1,5 @@
+import '../css/portfolio.css'
+
 export function Portfolio() {
     return (
         <div className="portfolio">
@@ -5,3 +7,4 @@ export function Portfolio() {
         </div>
     );
 }
+

@@ -1,7 +1,11 @@
+import '../css/footer.css';
 export function Footer() {
     return (
         <div className="footer">
-            <h1>Footer</h1>
+            <p>/olygood</p>
+            <p>/Team</p>
+            <p>/Gamer</p>
+
         </div>
     );
 }
