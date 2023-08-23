@@ -1,37 +1,32 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css'
+import { Header } from './assets/components/front/Header'
+import { Main } from './assets/components/front/Main'
+import { Footer } from './assets/components/front/Footer'
+import { Home } from './assets/components/front/Home'
+import { Portfolio } from './assets/components/front/Portfolio'
+import { Contact } from './assets/components/front/Contact'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className='container'>
 
-        <div className='banner'>
-          <h2>OLYGOOD</h2>
-          <p>deux</p>
-          <p>trois</p>
-          <p>quatre</p>
-        </div>
-
-
-        <div className='main'>
-          <h2>je suis le main</h2>
-        </div>
-        
-        <div className='footer'>
-          <h2>footer</h2>
-          <p>réseaux sociaux</p>
-          <p>instagram</p>
-          <p>twitter</p>
-        </div>
+    <Router>
+      
+      <Header />
+      <Main>
+      <Route path="/" element={<Home />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/contact" element={<Contact />} />
+      </Main>
+      <Footer />
 
 
-      </div>
-    </>
+    </Router>
+
+
+
   )
 }
 

@@ -1,0 +1,44 @@
+.header{
+    width: 500px;
+    height: 100px;
+    background: #333;
+    
+
+}
+.headerMenu{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+
+}
+.headerMenu ul{
+   width: 300px;
+   height: 100px; 
+   display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.headerMenu li{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    list-style: none;
+    
+    
+}
+.headerMenu li p{
+    list-style: none;
+    color: white;
+    font-size:2rem;
+    text-decoration: none;
+}
