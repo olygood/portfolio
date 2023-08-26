@@ -1,6 +1,6 @@
 .headerContainer {
     width: 100%;
-    height: auto;
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -10,26 +10,26 @@
 
 }
 .headerLink{
-    width: 1100px;
+    width: 1000px;
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    height: auto;
+    display: flex;
+    padding: 0 50px 0 0;
+
+
 }
 
 .headerLink ul {
-    width: 50%;
+    width: 100%;
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-
-
-
-
+    border: 1px solid #fff;
 }
 
 .headerLink li {
@@ -37,7 +37,7 @@
     height: 100px;
     text-decoration: none;
     list-style: none;
-    
+    border: 1px solid #31da5e;    
 }
 
 .headerLink li p {
