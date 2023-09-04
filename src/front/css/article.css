@@ -1,3 +1,8 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700&family=Quicksand:wght@300;400;500;700&display=swap');
+p{
+    font-family: Monrope ;
+}
 .article_container{
     width: auto;
     height: auto;
@@ -6,22 +11,10 @@
     justify-content:flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    gap: 10px;
-    border: 5px solid #c41e1e;
-}
-.article_text{
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #ededed;
+    /* background-color: #f5f5f5; */
+    /* padding: 20px; */
+    /* border-radius: 5px; */
+    /* margin-bottom: 20px; */
 }
 .article_social{
     width: 100%;

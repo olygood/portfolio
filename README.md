@@ -1,15 +1,12 @@
-##EADME      
-####React is back    
- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=fal|   |   |
-
-<!-- code_chunk_output -->
-
-1. [EADME](#eadme)
-        1. [React is back](#react-is-back)
-
-<!-- /code_chunk_output -->
-|---|---|
-|   |   |
+## Mon portfolio     
+##### Différentes sections :  
+1. Home  
+.article de veille technologique  
+2. Portfolio  
+3. CV  
+4. Contact  
+##### Image du site :
+![image home](https://github.com/olygood/imagesWeb/blob/master/webPortfolio.png?raw=true)
  
 
    

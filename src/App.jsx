@@ -5,12 +5,11 @@ import { Main } from './front/pages/Main'
 import { Footer } from './front/pages/Footer'
 
 
-
 function App() {
   return (
     <div className='app'>
         <Header />
-        <Main />
+        <Main />     
         <Footer />
     </div>
   )

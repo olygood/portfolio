@@ -1,0 +1,29 @@
+.lienInfo_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lienInfo_container ul {
+  line-height: 1px;
+  text-align: center;
+  /* border: 2px solid #67c1f5; */
+  /* border: 2px solid #baeb49; */
+}
+
+.lienInfo_container li {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #67c1f5;
+}
+
+.lienInfo_container li:hover {
+  background: #f9dc5d;
+  cursor: pointer;
+}
