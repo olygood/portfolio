@@ -6,7 +6,8 @@
 3. CV  
 4. Contact  
 ##### Image du site :
-![image_web](https://github.com/olygood/imagesWeb/blob/master/webPortfolio.png?raw=true)  
+![image_web](https://github.com/olygood/imagesWeb/blob/master/webPortfolio.png?raw=true)
+<!-- ![image_web](/public/webPorfolio.png)  -->
 
  
 

@@ -10,9 +10,10 @@ const headers = new Headers({
     'Authorization': `Bearer ${token}`
 });
 
-fetch('https://api.github.com/repos/olygood/portfolio/contents/README.md', {headers})
+fetch('https://api.github.com/repos/olygood/portfolio/contents/README.md/', {headers})
     .then(response => response.json())
     .then(data => {
+        console.log(data);
         const content = atob(data.content);
         console.log(content);
         setReadme(content);
