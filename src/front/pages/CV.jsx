@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown'
 export const CV = () => {
 const[readme,setReadme]= useState('');
 
-const token = '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';
+const token = import.meta.env.VITE_API_KEY;
 const headers = new Headers({
     'Authorization': `Bearer ${token}`
 });
